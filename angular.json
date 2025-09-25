@@ -30,7 +30,9 @@
               "src/assets"
             ],
             "styles": [
+              "../Neiconidotdev/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
+
             ],
             "scripts": []
           },
@@ -93,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "../Neiconidotdev/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

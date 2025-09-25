@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+
+<section class="container py-5">
+    <h2 class="text-success text-center mb-4">Projects</h2>
+    <div class="row g-4">
+        <div class="col-md-6" *ngFor="let project of projects">
+            <div class="card h-100 shadow border-0">
+                <img [src]="project.image" class="card-img-top" alt="{{ project.title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.description }}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a [href]="project.demo" target="_blank" class="btn btn-success btn-sm">Demo</a>
+                    <a [href]="project.github" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>
