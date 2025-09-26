@@ -18,9 +18,9 @@ export class ProjeComponent {
     {
       title: 'Bio natur dayneo market',
       description: 'A marketplace for seling natural juice ',
-      image: 'assets/project2.png',
+      image: 'assets/project-2.png',
       demo: 'https://bio-natur-market.netlify.app',
-      github: '#',
+      github: 'https://github.com/AndreiNeiconi/Neiconidotdev.git',
     },
   ];
 }
