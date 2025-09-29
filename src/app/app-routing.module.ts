@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjeComponent } from './pages/proje/proje.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { LinksComponent } from './pages/links/links.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'links', component: LinksComponent },
   { path: '**', redirectTo: '' },
 ];
 
