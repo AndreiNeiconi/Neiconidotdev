@@ -1,11 +1,11 @@
 <app-navbar></app-navbar>
 
-<section class="container py-5">
+<section class="container h-auto">
     <h2 class="text-success text-center mb-4">Projects</h2>
     <div class="row g-4">
         <div class="col-md-6" *ngFor="let project of projects">
             <div class="card h-100 shadow border-0">
-                <img [src]="project.image" class="card-img-top" alt="{{ project.title }}">
+                <img [src]="project.image" class="card-img-top" alt="{{ project.title }}" height="">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.title }}</h5>
                     <p class="card-text">{{ project.description }}</p>
@@ -17,5 +17,7 @@
             </div>
         </div>
     </div>
+
+
 </section>
 <app-footer></app-footer>

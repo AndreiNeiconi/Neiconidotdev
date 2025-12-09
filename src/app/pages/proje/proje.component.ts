@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-proje',
@@ -21,6 +22,14 @@ export class ProjeComponent {
       image: 'assets/project-2.png',
       demo: 'https://bio-natur-market.netlify.app',
       github: 'https://github.com/AndreiNeiconi/Neiconidotdev.git',
+    },
+    {
+      title: 'Youtube Python downloader',
+      description:
+        'A GUI python interface that help you download multiple song from a excel file ',
+      image: 'assets/project-3.png',
+      demo: 'https://github.com/AndreiNeiconi/Bingo_Svript_Rotaract.git',
+      github: 'https://github.com/AndreiNeiconi/Bingo_Svript_Rotaract.git',
     },
   ];
 }
