@@ -43,7 +43,7 @@ export class ProjeComponent {
       title: 'Polifans',
       description:
       'A web platform dedicated to students of politehnica university of Timisoara, where they can find information about student life, events, and resources. The platform also includes a forum where students can connect and share information with each other, post pepper,exemple of exams and manny more.',
-      image: 'assets/project-5.png',
+      image: 'assets/project-4.png',
       demo: 'http://neiconidotdev.duckdns.org/',
       github: ' https://github.com/AndreiNeiconi/PoliFansServer'
     }
